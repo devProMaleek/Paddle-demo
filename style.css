@@ -21,6 +21,9 @@
     color: black;
 }
 
+.button:focus{
+    outline: none;
+}
 .sign-up{
     border-color: #BA55D3;
     color: #BA55D3;
@@ -30,13 +33,42 @@
     background: #BA55D3;
     color: #fff;
 }
-.navbar-toggler{
+.navbar-toggler:focus{
     outline: none;
     border: none;
 }
 
-@media only screen and (max-width: 765px) {
+.divider{
+    width: 0;
+    height: 80px;
+    background: #EEEFF2;
+    border: 1px solid #EEEFF2;
+}
+
+.icon{
+    position: relative;
+}
+
+.fas {
+    position: absolute;
+    left: 37%;
+    right: 35%;
+    top: 35%;
+    bottom: 10%;
+}
+@media only screen and (max-width: 768px) {
     .button {
         box-shadow: 0 10px 10px rgba(186, 85, 211, 0.25);
     }
+    .divider {
+        margin: 15px auto;
+        width: 70%;
+        height: 0;
+        background: #EEEFF2;
+        border: 1px solid #EEEFF2;
+    }
+}
+
+@media screen and (max-width:576px) {
+
 }
