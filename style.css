@@ -55,13 +55,26 @@
     right: 35%;
     top: 35%;
     bottom: 10%;
+    color: #BA55D3;
+}
+
+h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+span{
+    font-family: Rubik;
 }
 @media only screen and (max-width: 768px) {
     .button {
         box-shadow: 0 10px 10px rgba(186, 85, 211, 0.25);
     }
     .divider {
-        margin: 15px auto;
+        margin: 20px auto;
         width: 70%;
         height: 0;
         background: #EEEFF2;
