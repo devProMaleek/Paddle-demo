@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
+body{
+    overflow-x: auto;
+}
+
 .text-shadow{
     font-family: Rubik;
     font-style: normal;
@@ -69,6 +73,39 @@ h3{
 span{
     font-family: Rubik;
 }
+
+.features-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.features-text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+ul li {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+.list-type{
+    width: 20px;
+    height: 20px;
+    background: #BA55D3;
+    border-radius: 4px;
+    display: inline-block;
+}
 @media only screen and (max-width: 768px) {
     .button {
         box-shadow: 0 10px 10px rgba(186, 85, 211, 0.25);
@@ -83,5 +120,15 @@ span{
 }
 
 @media screen and (max-width:576px) {
+    .features-header{
+    font-size: 2rem;
+}
 
+    .features-text {
+        font-size: 0.9rem;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+    }
 }
