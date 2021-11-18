@@ -106,6 +106,75 @@ ul li {
     border-radius: 4px;
     display: inline-block;
 }
+
+.plan-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.plan-head {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.plan-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.plan-section{
+    position: relative;
+}
+
+.plan-section:hover {
+    border-color: #BA55D3;
+}
+
+.plan-section .button-select {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 100%;
+}
+
+.plan-section button {
+    border-color: #BA55D3;
+    color: #BA55D3
+}
+
+.plan-section button:hover{
+    background: #BA55D3;
+    color: #fff
+}
+.rounded {
+    height: 760px;
+}
+
+
+.call-to-action-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.call-to-action-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
 @media only screen and (max-width: 768px) {
     .button {
         box-shadow: 0 10px 10px rgba(186, 85, 211, 0.25);
@@ -116,9 +185,21 @@ ul li {
         height: 0;
         background: #EEEFF2;
         border: 1px solid #EEEFF2;
+    } 
+
+    .logo{
+        flex-direction: column;
+    }
+    
+    .logo img {
+        margin: 10px 0;
     }
 }
-
+@media screen and (max-width: 1200px) {
+    .logo img {
+        margin-left: 10px;
+    }
+}
 @media screen and (max-width:576px) {
     .features-header{
     font-size: 2rem;
