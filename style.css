@@ -2,7 +2,7 @@
 
 /*Body Style*/
 body{
-    overflow-x: auto;
+    overflow-x: none;
 }
 
 /*Navbar Section*/
@@ -252,6 +252,7 @@ ul li {
 .button-page{
     background: transparent;
     border-color: #BA55D3;
+    color: #BA55D3;
 }
 
 .button-page:hover{
@@ -260,8 +261,26 @@ ul li {
     box-shadow: 0 25px 25px rgba(186, 85, 211, 0.3);
 }
 
+/* Subscribe Section */
 
-/*Media Query For Smaller Scren*/
+.subscribe-header {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.subscribe-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/*Media Query For Smaller Screen*/
 @media only screen and (max-width: 768px) {
     .button {
         box-shadow: 0 10px 10px rgba(186, 85, 211, 0.25);
@@ -280,6 +299,25 @@ ul li {
     
     .logo img {
         margin: 10px 0;
+    }
+
+    /* Subscribe Card */
+
+    .subscribe-card{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .subscribe-header{
+        font-size: 1.5rem;
+    }
+
+    .subscribe-text {
+        margin-bottom: 10px !important;
+    }
+
+    .subscribe-body {
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 1200px) {
